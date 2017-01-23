@@ -5,10 +5,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/index.js"></script>
-  <title>Ironhack cart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/index.js"></script>
+  <title>Ironhack Cart</title>
 </head>
 <body>
+
+  <div class="container">
+
+
+<!--ITEM INFORMATION-->
+      <div class="item-info-container">
+
+      <div class="page-header">
+          <h1>Ironhack <br> Merchandising Shop</h1>
+
+      </div>
+
+        <div class="item-row">
+
+            <div class="item-name"> <span> IronBubble-head </span>  </div>
+            <div class="item-cost"> 25.00  </div>
+            <div class="item-quantity"> QTY
+
+              <input class="input-quantity">
+
+
+            </div>
+            <div class="item-total-price"> 0.00 </div>
+            <div class="item-delete">  <button class="delete-button">Delete</button>  </div>
+
+        </div>
+
+        <div class="item-row">
+
+          <div class="item-name">  <span> IronShirt </span>  </div>
+          <div class="item-cost">  15.00  </div>
+          <div class="item-quantity">
+
+            <span> QTY
+                <input class="input-quantity" type="text">
+            </span>
+
+          </div>
+          <div class="item-total-price"> 0.00 </div>
+          <div class="item-delete">  <button class="delete-button">Delete</button>  </div>
+
+
+        </div>
+
+
+        <div class="item-row">
+
+          <div class="item-name"> <span> IronCup </span>  </div>
+          <div class="item-cost"> <span> item-cost </span>  </div>
+          <div class="item-quantity">
+
+            <span> QTY
+                <input class="input-quantity" type="text">
+            </span>
+
+           </div>
+          <div class="item-total-price"> <span> item-total-price </span>   </div>
+          <div class="item-delete"> <button class="delete-button">Delete</button> </div>
+
+
+        </div>
+
+
+
+        <div class="item-row">
+
+          <div class="item-name"> <span> IronSticker </span>   </div>
+          <div class="item-cost"> <span> item-cost </span>  </div>
+          <div class="item-quantity">
+
+            <span> QTY
+                <input class="input-quantity" type="text">
+            </span>
+
+           </div>
+          <div class="item-total-price"> <span> item-total-price </span>    </div>
+          <div class="item-delete"> <button class="delete-button">Delete</button>  </div>
+
+
+        </div>
+
+
+        <div class="item-row">
+
+          <div class="item-name"> <span> IronAxe </span>   </div>
+          <div class="item-cost"> <span> item-cost </span>  </div>
+          <div class="item-quantity">
+
+            <span> QTY
+                <input class="input-quantity" type="text" required>
+            </span>
+
+          </div>
+          <div class="item-total-price">  <span> item-total-price </span>   </div>
+          <div class="item-delete"> <button class="delete-button">Delete</button>  </div>
+
+        </div>
+
+
+        <div class="calculator">
+          <button class="calculate-button" onclick="updatePriceByProduct"> Calculate Prices </button>
+        </div>
+                                                    //^ removed parentheses bc program would expect argument
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
 </body>
 </html>
